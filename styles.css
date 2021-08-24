@@ -5,6 +5,7 @@
 	--primary-color: #5b21b6;
 	--background-color: #1f2937;
 	--text-color: #f9fafb;
+    --new: #4C1D95;
 	 margin: 0;
 	 padding: 0;
 	 font-family: 'Montserrat', sans-serif;
@@ -35,10 +36,56 @@ nav {
     font-family: 'Satisfy', cursive;
 }
 
+div {
+    display: block;
+}
+header {
+    text-align: center;
+}
+
+#index-h1 {
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+    font-family: 'Satisfy', cursive
+}
+
+.tabs {
+    display: block;
+
+}
+
+.boxlink {
+    /* color: var(--new); */
+    font-weight: 900;
+    border-radius: .7rem;
+    border: 2px solid white;
+    max-width: 60%;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+}
+
+.tab {
+    width: 20%;
+    padding: 2rem;
+}
+
+.color {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+
 h1 {
     text-align: center;
     padding: 2rem;
     margin: 0 auto;
+    
 }
 
 h2 {
