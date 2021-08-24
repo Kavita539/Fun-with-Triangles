@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;400;600&family=Satisfy&display=swap');
+
+* {
+	--primary-color: #5b21b6;
+	--background-color: #1f2937;
+	--text-color: #f9fafb;
+	 margin: 0;
+	 padding: 0;
+	 font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	color: var(--text-color);
+	background: var(--background-color);
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.brand {
+    font-family: 'Satisfy', cursive;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+h2 {
+        text-align: center;
+        font-family: 'Satisfy', cursive;
+        margin: 0 auto;
+        padding: 2rem;
+        justify-content: space-evenly;
+        padding-top: 1rem;
+    
+}
+
+.question-container {
+	padding: 2rem;
+	border: 2px solid var(--primary-color);
+	border-radius: 0.5rem;
+	margin: 1rem 0;
+}
+
+.question-container p {
+	margin-bottom: 1rem;
+}
+
+.question-container label {
+	margin-right: 0.5rem;
+}
+
+.angle-container {
+	width: 60%;
+	margin: auto;
+}
+
+
+.btn {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-width: medium;
+    padding: 14px 50px;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+     font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+}
+
+
+.op {
+	text-align: center;
+	margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.input-container {
+	margin: 1rem 0;
+}
+
+.input-container input {
+	padding: 0.5rem;
+	font-size: 1rem;
+	width: 97%;
+	margin: 0.5rem 1rem 1rem 0;
+}
+
+.formula {
+	text-align: center;
+	width: 30%;
+	margin: auto;
+	padding: 1rem;
+	border: 2px solid var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footHeading {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin: 0.5rem auto 0 auto;
+}
+
+
+li {
+    display: inline;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+	color: var(--text-color);
+	padding: 0.5rem;
+	font-weight: 1000;
+	font-size: 1rem;
+}
+
+a:hover {
+    color: black;
+}
+
+
+.item-active {
+	border-bottom: 2px solid;
+	font-weight: bold;
+}
+
+
