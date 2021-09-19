@@ -1,17 +1,17 @@
-const sides = document.querySelectorAll(".side-input");
-const hypotenuseBtn = document.querySelector("#hypotenuse-btn")
-const outputEl = document.querySelector("#output");
+var sides = document.querySelectorAll(".side-input");
+var hypotenuseBtn = document.querySelector("#hypotenuse-btn")
+var outputEl = document.querySelector("#output");
+var form =document.querySelector("#input-form");
 
-function calculateSumOfsquares(a,b) {
-    const sumOfSquares = a*a + b*b;
-    return sumOfSquares;
-}
+form.addEventListener("submit",(e)=>{
+    e.preventDefault();
 
-function calculateHypotenuse() {
-    const sumOfSquares = calculateSumOfsquares(Number(sides[0].value),Number(sides[1].value));
-    const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
-    outputEl.innerText = "The length of Hypotenuse is " + lengthOfHypotenuse + " units";
+    var oppositeSide = Number(sides[0].value);
+    var adjacentSide = Number(sides[1].value);
+    var lengthOfHypotenuse = Math.sqrt(Math.pow(oppositeSide,2) + Math.pow(adjacentSide,2))
+    
+    outputEl.innerText = "The length of Hypotenuse is " + lengthOfHypotenuse.toFixed(2) + " units";
 
-}
+})
 
-hypotenuseBtn.addEventListener("click", calculateHypotenuse);
+
